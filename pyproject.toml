@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "momentum"
+version = "0.1.0"
+description = "A comprehensive personal development system combining task management with Scrum methodology and reflective journaling."
+authors = ["Joaquin Hernandez Martinez <proyecto_noether@outlook.com>"]
+license = "AGLP-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
